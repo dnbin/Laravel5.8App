@@ -1,0 +1,64 @@
+.travel-plan {
+    h2 {
+        color: $gray;
+        margin-bottom: 15px;
+    }
+    h5 {
+        color: $gray;
+        margin-bottom: 30px;
+    }
+    form {
+        .first-block {
+            .form-control {
+                border-left: 0;
+                width: 220px;
+            }
+            select {
+                width: 220px !important;
+            }
+        }
+        .second-block {
+            .form-control {
+                border-left: 0;
+            }
+            select {
+                width: 220px !important;
+            }
+        }
+
+        .notify {
+            margin-top: 50px;
+            color: #949397;
+            p {
+                margin-bottom: 15px;
+            }
+        }
+        
+        .btn-group {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .travel-plan {
+        padding: 40px 0;
+        h5 {
+            margin-bottom: 15px;
+        }
+        .box {
+            padding: 30px;
+        }
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .travel-plan {
+        padding: 100px 0;
+        .box {
+            padding: 50px 0;
+        }
+    }
+}

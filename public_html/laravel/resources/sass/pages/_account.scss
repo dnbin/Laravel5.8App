@@ -1,0 +1,19 @@
+.account {
+    background-image: url('images/account-created-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .box {
+        border-radius: 4px;
+        background: $white;
+    }
+}
+
+@media (max-width: 767px) {
+    .account {
+        .box {
+            width: 90%;
+            margin: 25px auto;
+        }
+    }
+}

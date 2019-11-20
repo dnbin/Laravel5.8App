@@ -1,0 +1,9 @@
+sql.zip
+.idea/
+laravel/bootstrap/cache/
+mix-manifest.json
+css/
+js/
+fonts/
+images/
+misc/

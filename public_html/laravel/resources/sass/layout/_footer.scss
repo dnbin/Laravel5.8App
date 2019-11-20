@@ -1,0 +1,121 @@
+footer {
+    background: $outer-space;
+    padding: 30px 0;
+    .logo {
+        img {
+            height: 25px;
+        }
+    }
+    .navigation {
+        a {
+            font-family: $semibold;
+            color: $white;
+        }
+    }    
+    .social {
+        a {
+            color: white;
+        }
+    }
+    .copyright {
+        margin: 0;
+        color: rgba(255,255,255,0.50);
+        border-top: 1px solid rgba(255,255,255,0.15);
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+    footer {
+        .logo {
+            img {
+                margin: 0 auto;
+                display: table;
+            }
+        }
+        .navigation {
+            text-align: center;
+            margin: 30px 0;
+            ul {
+                li {
+                    display: block;
+                    margin-bottom: 5px;
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .social {
+            text-align: center;
+            ul {
+                li {
+                    display: block;
+                    margin-bottom: 5px;
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+        }        
+    }
+}
+@media (min-width: 768px) {
+    footer {
+        .navigation {
+            ul {
+                display: table;
+                margin: 0 auto;
+                li {
+                    display: inline-block;
+                    margin-right: 40px;
+                    &:last-child {
+                        margin: 0;
+                    }
+                    a {
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+        .social {
+            text-align: right;
+            ul {
+                li {
+                    display: inline-block;
+                    margin-right: 20px;
+                    &:last-child {
+                        margin: 0;
+                    }
+                    a {
+                        line-height: 25px;
+                    }
+                }
+            }
+        }         
+    }
+}
+@media (min-width: 992px) {
+    footer {
+        .navigation {
+            ul {
+                li {
+                    margin-right: 40px;
+                }
+            }
+        }
+        .social {
+            ul {
+                li {
+                    margin-right: 20px;
+                }
+            }
+        } 
+    }
+}

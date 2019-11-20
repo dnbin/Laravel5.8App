@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'bundle';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~datatables.net-bs4/css/dataTables.bootstrap4";
+@import "~datatables.net-fixedheader-bs4/css/fixedHeader.bootstrap4";
+@import "~datatables.net-scroller-bs4/css/scroller.bootstrap4";
+@import "~datatables.net-select-bs4/css/select.bootstrap4";
+@import "~datatables.net-buttons-bs4/css/buttons.bootstrap4";
+@import '~dropzone/dist/dropzone.css';
+
+@import "bootstrap_custom"; // bootstrap btn-xs mixin
+@import 'custom.css'; // datatables style custom
+

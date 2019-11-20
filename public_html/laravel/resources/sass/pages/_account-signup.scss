@@ -1,0 +1,42 @@
+.account-signup {
+    h2 {
+        color: $gray;
+        margin-bottom: 15px;
+    }
+    h5 {
+        color: $gray;
+        margin-bottom: 30px;
+    }
+    .sign-in-box {
+        border-top: 1px solid rgba(40,47,54,0.15);
+        margin-top: 30px;
+        padding-top: 25px;
+        text-align: center;
+        a {
+            font-family: $semibold;
+        }
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .account-signup {
+        padding: 40px 0;
+        h5 {
+            margin-bottom: 15px;
+        }
+        .box {
+            padding: 30px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .account-signup {
+        padding: 100px 0;
+        .box {
+            padding: 130px 0;
+        }
+    }
+}

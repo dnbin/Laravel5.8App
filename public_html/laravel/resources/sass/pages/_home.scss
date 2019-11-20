@@ -1,0 +1,100 @@
+.hero-signin {
+    background: #f4f4f4;
+    .box {
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 70px 0;
+        .bg-box {
+            background-image: url('images/sample.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            color: $white;
+            padding: 0 40px 0 60px;
+            h4 {
+                color: $white;
+                margin: 100px 0 25px 0;
+                font-family: $bold;
+            }
+            ul {
+                li {
+                    font-family: $semibold;
+                    margin-bottom: 20px;
+                    position: relative;
+                    &:before {
+                        display: inline-block;
+                        font-style: normal;
+                        font-variant: normal;
+                        text-rendering: auto;
+                        -webkit-font-smoothing: antialiased;
+                        font-family: "Font Awesome 5 Free";
+                        font-weight: 900;
+                        content: "\f00c";
+                        position: absolute;
+                        left: -25px;
+                    }
+                    &:last-child {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .form-box {
+            background: $white;
+            .inner {
+                padding-left: 50px;
+                padding-right: 50px;
+                h4 {
+                    color: #282F36;
+                    margin: 40px 0 25px 0;
+                    font-family: $bold;
+                }
+                .social-signin {
+                    margin-top: 30px;
+                    span {
+                        display: inline;
+                        margin-right: 10px;
+                    }
+                    ul {
+                        display: inline;
+                        li {
+                            display: inline-block;
+                            margin-right: 10px;
+                            &:last-child {
+                                margin: 0;
+                            }
+                            img {
+                                width: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+            .sign-in-box {
+                border-top: 1px solid rgba(40,47,54,0.15);
+                margin-top: 30px;
+                padding-top: 25px;
+                margin-right: -15px;
+                margin-left: -15px;
+                padding-left: 65px;
+                padding-bottom: 25px;
+                p {
+                    margin: 0;
+                    a {
+                        font-family: $semibold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    .hero-signin {
+        .box {
+            .bg-box {
+                padding-bottom: 100px;
+            }
+        }
+    }
+}

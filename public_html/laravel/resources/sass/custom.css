@@ -1,0 +1,12 @@
+.fixedtitle{
+    max-width:300px;
+    min-width:150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align:left;
+}
+
+.nowrap{
+    white-space: nowrap;
+}

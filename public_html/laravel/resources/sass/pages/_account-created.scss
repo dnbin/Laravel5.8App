@@ -1,0 +1,48 @@
+.account-created {
+    .box {
+        img {
+            width: 68px;
+            display: table;
+            margin: 0 auto;
+        }
+        h4 {
+            text-align: center;
+            margin: 20px 0;
+            font-family: $bold;
+            color: #282F36;
+        }
+        p {
+            color: $gray;
+        }
+        .btn {
+            margin-top: 50px !important;
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    .account-created {
+        padding: 40px 0;
+        .box {
+            padding: 30px;
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+    .account-created {
+        padding: 200px 0;
+        .box {
+            padding: 60px 0;
+            p {
+                text-align: center;
+            }
+            .btn {
+                display: table;
+                margin: 0 auto;
+            }
+        }
+    }
+}

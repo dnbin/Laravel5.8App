@@ -1,0 +1,85 @@
+.preferences {
+    h2 {
+        color: $gray;
+        margin-bottom: 15px;
+    }
+    h5 {
+        color: $gray;
+        margin-bottom: 30px;
+    }
+    form {
+        .first-block {
+            .form-control {
+                border-left: 0;
+            }
+            select {
+                width: 220px !important;
+            }
+        }
+        .price-alert {
+            margin: 40px 0 50px 0;
+            color: #949397;
+            span {
+                color: $blue;
+            }
+        }
+        .notify {
+            color: #949397;
+            p {
+                margin-bottom: 15px;
+            }
+        }
+        .second-block {
+            span {
+                line-height: 40px;
+            }
+        }
+        .btn-group {
+            margin-top: 50px;
+        }
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .preferences {
+        padding: 40px 0;
+        h5 {
+            margin-bottom: 15px;
+        }
+        .box {
+            padding: 30px;
+        }
+        form {
+            .first-block {
+                select {
+                    width: 140px !important;
+                }
+            }
+            .second-block {
+                span {
+                    width: 100px !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .preferences {
+        padding: 100px 0;
+        .box {
+            padding: 50px 0;
+        }
+        form {
+            .second-block {
+                span {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
